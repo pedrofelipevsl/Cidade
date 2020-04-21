@@ -2,3 +2,9 @@ ion-content button {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.style7636 { 
+  background-image: url("../img/location-logo.png");
+  background-size: cover;
+  opacity: 1;
+}

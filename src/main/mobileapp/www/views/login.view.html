@@ -1,8 +1,8 @@
 <ion-view cache-view="false" can-swipe-back="false" class="pane login-bg" data-container="true">
-  <ion-content class="scroll-content center-content-vertically" data-component="crn-ion-content">
-    <div class="list safe-top" data-container="true">
+  <ion-content class="scroll-content center-content-vertically style7636" data-component="crn-ion-content">
+    <img src="img/logo.svg" class="component-holder logo" style="display: block; margin-left:auto; margin-right:auto;" xattr-position="display: block; margin-left:auto; margin-right:auto;" data-component="crn-image" id="crn-image-960683"><div class="list safe-top" data-container="true">
       <div class="col text-center">
-        <img src="img/logo.svg" class="component-holder logo" style="display: block; margin-left:auto; margin-right:auto;" xattr-position="display: block; margin-left:auto; margin-right:auto;" data-component="crn-image" id="crn-image-960683">
+        
       </div>
     </div>
     <form class="form-validation" autocomplete="off" name="form" role="form">
@@ -14,7 +14,7 @@
           <input autocomplete="current-password" type="password" placeholder="{{'Login.view.Password' | translate}}" ng-model="vars.password">
         </label>
         <label class="item">
-          <button class="button component-holder button-full button-positive" type="button" ng-click="cronapi.client('js.blockly.auth.Login.login').run(vars.username, vars.password, null)" data-component="crn-button" id="crn-button-445347" xattr-fullsize="button-full" xattr-theme="button-positive" ng-disabled="form.$invalid || vm.dataLoading">
+          <button class="button component-holder button-full button-stable" type="button" ng-click="cronapi.client('js.blockly.auth.Login.login').run(vars.username, vars.password, null)" data-component="crn-button" id="crn-button-445347" xattr-fullsize="button-full" xattr-theme="button-stable" ng-disabled="form.$invalid || vm.dataLoading">
             <i class=""></i>
             <span>{{"Login.view.Login" | translate}}</span>
           </button>
@@ -28,3 +28,4 @@
     </form>
   </ion-content>
 </ion-view>
+ 
