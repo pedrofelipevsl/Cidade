@@ -25,6 +25,7 @@
     "cronapp-framework-js": "2.3.5",
     "cronapp-common-js": "2.3.2",
     "cronapi-js": "2.3.3",
-    "cronapp-lib-js": "2.3.8"
+    "cronapp-lib-js": "2.3.8",
+    "cronapp-google-maps": "0.0.11"
   }
 }
