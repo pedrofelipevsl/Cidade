@@ -8,5 +8,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CronApp IDE",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-ios": "^5.1.1"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "1",
+    "cordova-plugin-cronapp": "1.0.3-d"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-cronapp": {}
+    }
+  }
 }
